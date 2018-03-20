@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+.button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.button3 {background-color: #f44336;
+    } /* Red */ 
+</style>
+
+
+
+<button class="button button3"><a href="ele3.html">Apply for Test</a></button>
+
+
+<button class="button button3"><a href="ele1.html">back to courses</a></button>
+</style>
+</head>
+<body>
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Introduction</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Installation Android</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">First Android App</button>
+  <button class="tablinks" onclick="openCity(event,'ab')">How to Install and Setup Genymotion for Android Studio ( GenyMotion Android Emulator )</button>
+  <button class="tablinks" onclick="openCity(event,'cd')">Basic Overview of an Android App</button>
+  <button class="tablinks" onclick="openCity(event,'ef')">Adding Two Numbers App (Simple Calculator)</button>
+  <button class="tablinks" onclick="openCity(event,'mn')">Wrap_content, Fill Parent, Password Field and Toast in Android</button>
+  <button class="tablinks" onclick="openCity(event,'op')">Android Checkbox Basics and Example</button>
+  <button class="tablinks" onclick="openCity(event,'xy')">Android RatingBar Basics</button>
+  <button class="tablinks" onclick="openCity(event,'zz')">How to Start New Activity On Button Click via Intent</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>Introduction to Android</h3>
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/EknEIzswvC0?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+<div id="Paris" class="tabcontent">
+  <h3>Intallation of Android Studio</h3>
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/SLNTnJkg6EE?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>First Android Application</h3>
+  <iframe width="854" height="480" src="https://www.youtube.com/embed/taSwS5rhtmc?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="ab" class="tabcontent">
+  <h3>How to Install and Setup Genymotion for Android Studio ( GenyMotion Android Emulator )</h3>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/MWZ2rVFOQWw?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="cd" class="tabcontent">
+  <h3>Basic Overview of an Android App</h3>
+ <iframe width="640" height="360" src="https://www.youtube.com/embed/myjSxtAk9XM?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="ef" class="tabcontent">
+  <h3>Adding Two Numbers App (Simple Calculator)</h3>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/7OQJIaXNmT4?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="mn" class="tabcontent">
+  <h3>Wrap_content, Fill Parent, Password Field and Toast in Android</h3>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/V7HPQ6DVvug?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="op" class="tabcontent">
+  <h3>Android RatingBar Basics</h3>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/0MrPs4yk9pU?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="xy" class="tabcontent">
+  <h3>Android Checkbox Basics and Example</h3>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/HO7CsnUEJAs?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<div id="zz" class="tabcontent">
+  <h3>How to Start New Activity On Button Click via Intent</h3>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/3f0NAn5xFy4?list=PLS1QulWo1RIbb1cYyzZpLFCKvdYV_yJ-E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<style> 
+textarea {
+    width: 50%;
+    height: 75px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    vertical-align: bottom;
+    margin: 
+}
+</style>
+<DIV>
+<!--form>
+  <textarea>Enter your queries here.....</textarea>
+</form-->
+</div>
+     
+</body>
+</html> 

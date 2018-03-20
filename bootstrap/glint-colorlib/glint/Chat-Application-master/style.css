@@ -1,0 +1,33 @@
+
+.container {
+	background: url('images/color-gradient-1uw.jpg');
+    padding: 2px;
+    width: 50%;
+    margin-left: 550px;
+    margin-top: 550px;
+
+}
+
+span
+{
+    color: white;
+}
+
+#chat_box
+{
+   width: 90%;*/
+    height:50%;*/
+    margin-bottom:  10px;
+}
+.form-group
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+body
+{
+    background: url('images/LRxGqsU.jpg');
+}
